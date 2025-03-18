@@ -5,7 +5,6 @@
 // Isosceles dos lados iguales y un tercer lado diferente
 // Escaleno tiene todos los lados de diferente tamaño
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 
