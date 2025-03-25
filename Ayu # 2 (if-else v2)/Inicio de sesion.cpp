@@ -1,6 +1,6 @@
 
 /* Cree un programa de inicio de sesion, donde se le pida al usuario su nombre y contraseña, 
-en donde se debe crear un codigo de seguridad con los primeros 3 digitos del nombre de usuario y los ultimos digitos de la contraseña.
+en donde se debe crear un codigo de seguridad con los primeros 3 digitos del nombre de usuario y los 3 ultimos digitos de la contraseña.
 El nombre de usuario para acceder es: Diego_01
 La contraseña para acceder es: password
 */
