@@ -1,0 +1,24 @@
+1 - 
+int, string, char, bool, float.
+2 - 
+15, 6, 6
+3 - 
+Se utiliza para leer lineas enteras de texto (hasta que se le de al enter). getline(cin,nombre de la variable string);
+4 -
+Facilitar escritura del codigo, pues no se debe colocar std::cin, std::cout, etc.
+5-
+Si A es igual a B y B no es igual a C, entonces
+Si ocurre A o No B, entonces   
+Si ocurre B y C, entonces
+6- 
+iostream
+string
+celular
+string
+llaves
+string
+Olvidaste la billetera
+Olvidaste las llaves
+Olvidaste el celular
+7-
+3 If-else (bloque anidado condicional)

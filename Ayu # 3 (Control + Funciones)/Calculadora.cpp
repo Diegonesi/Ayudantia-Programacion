@@ -1,5 +1,5 @@
 /*
-
+Cree un programa de que funcione como una calculadora simple. Debe desplegar un menú, para seleccionar suma, resta, multiplicación o división. Tras seleccionar una operación matemática se seleccionaran los valores numericos correspondientes.
 */
 #include <iostream>
 using namespace std;
