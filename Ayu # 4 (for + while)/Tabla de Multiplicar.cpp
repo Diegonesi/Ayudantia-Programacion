@@ -8,7 +8,7 @@ using namespace std;
 int main(){
     
     int numero;
-
+    
     cout<<"Seleccione un numero, para ver su tabla de multiplicacion:"<<endl;
     cin>>numero;
     cout<<"Tabla de multiplicar del "<<numero<<endl;
