@@ -5,13 +5,6 @@ Debe decir en que posicion esta cada 1 y cuantos 1 hay.
 #include <iostream>
 using namespace std;
 
-void imprimirArreglo(const int arr[], int size) {
-    for (int i = 0; i < size; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-}
-
 int main(){
     
     int arr[]={1,0,1,1,1,0,0,1,1,1,1,1,0,0,0,1,0,0,1,1,0,0,0,1,1,1,1,0},n=0;
