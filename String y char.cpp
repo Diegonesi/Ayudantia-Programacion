@@ -19,7 +19,7 @@ int main(){
     
     for(int i = 0; i<Primer_String.size();i++){ // Recorrer un String
             cout<<Primer_String[i]<<endl;
-            if(Primer_String[i]=='A'){
+            if(Primer_String[i]=='A'){ // REcuerden usar '' y no "" 
                 cout<<"Entre aqui"<<endl;
             }
         }
