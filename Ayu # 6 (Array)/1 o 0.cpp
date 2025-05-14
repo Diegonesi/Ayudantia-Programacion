@@ -16,7 +16,6 @@ int main(){
             n++;
         }
     }
-    
     cout<<"\n Hay "<<n<<" 1 "<<endl;
     
 
