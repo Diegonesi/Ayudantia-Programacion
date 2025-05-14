@@ -17,13 +17,15 @@ int main(){
 
     // Vemos como en el string o char existe mas tamaño que el definido, esto llama a caracteres de la tabla ASCII que estan en una direccion de memoria. (Puede ser "Vacio")
     
-    for(int i = 0; i<Primer_String.size();i++){ // Recorrer de manera inversaun String
+    for(int i = 0; i<Primer_String.size();i++){ // Recorrer un String
             cout<<Primer_String[i]<<endl;
             if(Primer_String[i]=='A'){
                 cout<<"Entre aqui"<<endl;
             }
         }
+    
     cout<<string(100,'=')<<endl;
+
     for(int i = Primer_String.size()-1; i>=0;i--){ // Recorrer un String de manera inversa
         cout<<Primer_String[i]<<endl;
         if(Primer_String[i]=='A'){
@@ -31,8 +33,7 @@ int main(){
         }
     }
 
-
-     cout<<string(100,'=')<<endl;//Linea que separa el resultado
+    cout<<string(100,'=')<<endl;//Linea que separa el resultado
 
     string Texto_2= "Me transformare en CHAR";
     const char* cstr = Texto_2.c_str(); // Se transformo en una cadena de caracteres
