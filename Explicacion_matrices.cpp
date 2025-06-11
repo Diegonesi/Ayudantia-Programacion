@@ -52,14 +52,14 @@ int main() {
     cout<< string(100,'=')<<endl;
     cout<<"Matriz bidimensional: "<<endl;
     for(int i = 0; i < size1; i++){ //Suponiendo que fuera un plano X Y
-        cout<<"X: "<<i<<endl;  //Primero fijamos el valor en Y
+        cout<<"Y: "<<i<<endl;  //Primero fijamos el valor en Y
         
         for(int j= 0; j < size2; j++){
-            cout<< "Y: "<<j<<endl; 
+            cout<< "X: "<<j<<endl;  // Luego tenemos que fijar el X
                 cout<<"Z posee: ";
             for (int k = 0; k < size3; k++)
             {
-                cout<< tridimensionalidad[i][j][k]<<" "; // Luego recorremos los X 
+                cout<< tridimensionalidad[i][j][k]<<" "; // Luego recorremos los Z
             }
            cout<<endl;
         }
