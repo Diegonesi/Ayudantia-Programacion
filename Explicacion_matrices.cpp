@@ -37,7 +37,7 @@ int main() {
     cout<<endl;
 
     cout<< string(100,'=')<<endl;
-    cout<<"Matriz bidimensional: "<<endl; // Super necesario para el control
+    cout<<"Matriz bidimensional: "<<endl; // Super necesario para el control, entiendan bien como se recorre.
     for(int i = 0; i < filas; i++){ //Suponiendo que fuera un plano X Y
         cout<<"Fila "<<i<<endl;  //Primero fijamos el valor en Y
         cout<< "Posee las columas: ";
@@ -50,7 +50,7 @@ int main() {
 
 
     cout<< string(100,'=')<<endl;
-    cout<<"Matriz bidimensional: "<<endl;
+    cout<<"Matriz tridimensional: "<<endl;  // Para nada necesario para el control
     for(int i = 0; i < size1; i++){ //Suponiendo que fuera un plano X Y
         cout<<"Y: "<<i<<endl;  //Primero fijamos el valor en Y
         
