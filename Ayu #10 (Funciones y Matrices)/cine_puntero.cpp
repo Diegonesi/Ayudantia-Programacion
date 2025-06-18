@@ -13,7 +13,6 @@ Debe utilizar funciones para cada funcionalidad
 using namespace std;
 
 
-
 void ver_sala(int matriz[9][15], int filas, int columnas){
     char letras[9];
     cout<<"   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15"<<endl;
@@ -37,21 +36,21 @@ void ver_sala(int matriz[9][15], int filas, int columnas){
     cout<<string(60,'=')<<endl;
 }
 
-void reservar_asiento(int matriz[9][15], int fila, int columna) { 
-    if(matriz[fila][columna] == 1 || matriz[fila][columna] == 2){
-        cout<<"Asiento ocupado "<<char('I'-fila)<<columna+1<<endl;
+void reservar_asiento(int (*matriz)[15], int filas, int columnas) { 
+    if(matriz[filas][columnas] == 1 || matriz[filas][columnas] == 2){
+        cout<<"Asiento ocupado "<<char('I'-filas)<<columnas+1<<endl;
     }else{
-        matriz[fila][columna] = 1;
-        cout<<"Se reservo el asiento "<<char('I'-fila)<<columna+1<<endl;
+        matriz[filas][columnas] = 1;
+        cout<<"Se reservo el asiento "<<char('I'-filas)<<columnas+1<<endl;
     }
 }
 
-void cancelar_asiento(int matriz[9][15], int fila, int columna) { 
-    if(matriz[fila][columna] != 1){
-        cout<<"Asiento ocupado "<<char('I'-fila)<<columna+1<<endl;
+void cancelar_asiento(int (*matriz)[15], int filas, int columnas) { 
+    if(matriz[filas][columnas] != 1){
+        cout<<"Asiento ocupado "<<char('I'-filas)<<columnas+1<<endl;
     }else{
-        matriz[fila][columna] = 0;
-        cout<<"Se reservo el asiento "<<char('I'-fila)<<columna+1<<endl;
+        matriz[filas][columnas] = 0;
+        cout<<"Se reservo el asiento "<<char('I'-filas)<<columnas+1<<endl;
     }
 }
 
