@@ -80,11 +80,11 @@ int main() {
         {
             cin>>notas[i];
         }
-        cin.ignore(); // Se utiliza para volver a usar el getline(), si no le da error.
+        cin.ignore(); // Se utiliza para volver a usar el getline() en la siguiente iteracion del for, si no le da error.
 
         promedio = calcular_promedio(notas);
         aprobados = calcular_aprobados(notas);
-        diferencia =diferencia_nota_max_min(notas);
+        diferencia = diferencia_nota_max_min(notas);
         porcentaje_aprobacion_global = aprobados;
         int posicion = nombre[i].find(' ');// La posicion nos dice donde esta el espacio y se le debe sumar 1 para tener la inicial el apellido
 
